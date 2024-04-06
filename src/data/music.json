@@ -1,0 +1,32 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "slug": "introduction-to-python",
+        "title": "Introduction to Python",
+        "description": "Learn the fundamentals of Python programming language.",
+        "price": 49.99,
+        "image": "https://example.com/intro-to-python.jpg",
+        "is_featured": true
+      },
+      {
+        "id": 2,
+        "slug": "web-development-basics",
+        "title": "Web Development Basics",
+        "description": "Explore the basics of web development including HTML, CSS, and JavaScript.",
+        "price": 59.99,
+        "image": "https://example.com/web-dev-basics.jpg",
+        "is_featured": false
+      },
+      {
+        "id": 3,
+        "slug": "data-science-with-python",
+        "title": "Data Science with Python",
+        "description": "Learn data analysis and visualization techniques using Python.",
+        "price": 79.99,
+        "image": "https://example.com/data-science-python.jpg",
+        "is_featured": true
+      }
+    ]
+  }
+  
