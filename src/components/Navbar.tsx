@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
+import Image from "next/image";
 const Navbar = ({ className }: { className?: string }) => {
   const [active, setActive] = useState<string | null>(null);
   return (
@@ -14,6 +15,17 @@ const Navbar = ({ className }: { className?: string }) => {
     >
       {" "}
       <Menu setActive={setActive}>
+        <Image
+          src={"/logo.jpg"}
+          width={35}
+          height={35}
+          style={{
+            borderRadius: "20px",
+            marginRight: "250px",
+            marginLeft: "-100px",
+          }}
+          alt={"Image"}
+        ></Image>
         <Link href={"https://yuvj.vercel.app/"}>
           <MenuItem
             setActive={setActive}
