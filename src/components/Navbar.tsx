@@ -14,7 +14,7 @@ const Navbar = ({ className }: { className?: string }) => {
     >
       {" "}
       <Menu setActive={setActive}>
-        <Link href={"http://localhost:3000/"}>
+        <Link href={"https://yuvj.vercel.app/"}>
           <MenuItem
             setActive={setActive}
             active={active}
